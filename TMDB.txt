@@ -1,0 +1,30 @@
+API KEY = 304ca56b1b7b57ca7a47d9b59946be94
+
+//---MOVIE LIST API
+https://api.themoviedb.org/3/discover/movie?api_key={api_key}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1
+
+//---TOP RATED
+https://api.themoviedb.org/3/movie/top_rated?api_key=304ca56b1b7b57ca7a47d9b59946be94&language=en-US&page=1
+
+//---NOW PLAYING
+https://api.themoviedb.org/3/movie/now_playing?api_key=304ca56b1b7b57ca7a47d9b59946be94&language=en-US&page=1
+
+//--UPCOMING
+https://api.themoviedb.org/3/movie/upcoming?api_key=304ca56b1b7b57ca7a47d9b59946be94&language=en-US&page=1
+
+//---MOVIE DETAIL API
+https://api.themoviedb.org/3/movie/ {movie_id}?api_key=304ca56b1b7b57ca7a47d9b59946be94&language=en-US
+
+
+
+//---TV LIST API
+https://api.themoviedb.org/3/discover/movie?api_key=304ca56b1b7b57ca7a47d9b59946be94&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1
+
+//---TV DETAIL
+https://api.themoviedb.org/3/tv/{tv_id}?api_key=304ca56b1b7b57ca7a47d9b59946be94&language=en-US
+
+//TV-TOP-RATED
+https://api.themoviedb.org/3/tv/top_rated?api_key=304ca56b1b7b57ca7a47d9b59946be94&language=en-US&page=1
+
+//TV-POPULAR
+https://api.themoviedb.org/3/tv/popular?api_key=304ca56b1b7b57ca7a47d9b59946be94&language=en-US&page=1

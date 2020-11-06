@@ -1,0 +1,16 @@
+.banner-img{
+	height: 60vh;
+	object-fit: contain;
+	position: relative;
+}
+.banner-content{
+	height: 60vh;
+}
+.release{
+	font-weight: bold;
+	color: #a2a6a4;
+}
+.overview{
+	font-weight: bold;
+	color: #848785;
+}

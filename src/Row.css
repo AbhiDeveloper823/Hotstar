@@ -1,0 +1,19 @@
+.row-img{
+	overflow-x: scroll;
+	overflow-y: hidden;
+	padding: 5px;
+}
+.row-img img{
+	border-radius: 10px;
+	width: auto;
+	height: 224px;
+	object-fit: contain;
+	transition: all 0.4s linear;
+	position: relative;
+}
+.row-img img:hover{
+	transform: scale(1.11);
+}
+.row-img::-webkit-scrollbar {
+  display: none;
+}

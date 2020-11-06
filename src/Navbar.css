@@ -1,0 +1,50 @@
+.navbar-toggler{
+	border: none;
+}
+.navbar-toggler:focus{
+	border: none;
+	outline: none;
+}
+span{
+	font-size: 1.4rem;
+}
+.nav_input{
+	width: 190px;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	color: white;
+	border-bottom: 0.1rem solid #cccac4;
+	font-weight: bold;
+	font-size:14px;
+	transition: all 0.3s linear;
+}
+.nav_input:focus{
+	width: 270px;
+	border-bottom: 0.1rem solid #1f80e0;;
+	font-weight: bold;
+	font-size:14px;
+}
+.fa-search{
+	font-size: 13px;
+	color: #cccac4;
+	position: absolute;
+	right: 120px;
+}
+.nav_btn_search{
+	background-color: transparent;
+	outline: none;
+	border: none;	
+}
+
+@media only screen and (max-width: 992px){
+	.nav_input{
+		width:120px;
+	}
+	.nav_input:focus{
+		width:160px;
+	}
+	.fa-search{
+		right: 25px;
+	}
+}
